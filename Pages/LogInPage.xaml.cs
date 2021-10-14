@@ -25,12 +25,12 @@ namespace CryptographicCommunicationProgram.Pages
 
         private void logInButton_Click(object sender, RoutedEventArgs e)
         {
-
+            //navigate to main program page
         }
 
         private void createAccountButton_Click(object sender, RoutedEventArgs e)
         {
-
+            //navigate to account creation page
         }
     }
 }
