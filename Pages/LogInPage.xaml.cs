@@ -22,5 +22,15 @@ namespace CryptographicCommunicationProgram.Pages
         {
             InitializeComponent();
         }
+
+        private void logInButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void createAccountButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

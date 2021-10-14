@@ -12,7 +12,7 @@
         <Label Content="User Log In" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" BorderThickness="0,0,1,0"/>
         <TextBox x:Name="userNameBox" HorizontalAlignment="Center" Margin="0,71,0,0" Text="UserName" TextWrapping="Wrap" VerticalAlignment="Top" Width="208"/>
         <PasswordBox x:Name="userPasswordBox" HorizontalAlignment="Center" Margin="0,94,0,0" VerticalAlignment="Top" Width="208"/>
-        <Button x:Name="logInButton" Content="Log In" HorizontalAlignment="Center" Margin="0,117,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="createAccountButton" Content="Create Account" HorizontalAlignment="Center" Margin="0,142,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="logInButton" Content="Log In" HorizontalAlignment="Center" Margin="0,117,0,0" VerticalAlignment="Top" Click="logInButton_Click"/>
+        <Button x:Name="createAccountButton" Content="Create Account" HorizontalAlignment="Center" Margin="0,142,0,0" VerticalAlignment="Top" Click="createAccountButton_Click"/>
     </Grid>
 </Page>
